@@ -4,10 +4,10 @@
 
 Plugin Name: StripTease
 Description: Strip "#more" fragments from "Read More" teaser links.
+Version: 1.1
 Plugin URI: http://guyfisher.com/builder/striptease/
 Author: Guy M. Fisher
 Author URI: http://guyfisher.com/
-Version: 1.1
 
 Copyright (c) 2005 by Guy M. Fisher <guyfisher@yahoo.com>
 
