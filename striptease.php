@@ -3,13 +3,13 @@
 /*
 
 Plugin Name: StripTease
-Plugin URI: http://guyfisher.com/builder/striptease/
 Description: Strip "#more" fragments from "Read More" teaser links.
-Version: 1.1
+Plugin URI: http://guyfisher.com/builder/striptease/
 Author: Guy M. Fisher
 Author URI: http://guyfisher.com/
+Version: 1.1
 
-Copyright 2005 by Guy M. Fisher (e-mail: guyfisher@yahoo.com)
+Copyright (c) 2005 by Guy M. Fisher <guyfisher@yahoo.com>
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -24,6 +24,9 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+
+For a summary of your rights under the GNU General Public License,
+please visit http://creativecommons.org/licenses/GPL/2.0/
 
 */
 
