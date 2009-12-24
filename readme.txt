@@ -44,8 +44,8 @@ No, you don't. StripTease will work with WordPress's default querystring permali
 
 StripTease automatically changes your teaser links from this:
 
-	http://guyfisher.com/archives/2005/09/striptease/#more-6
+	http://guyfisher.com/2005/09/striptease/#more-6
 
 To this:
 
-	http://guyfisher.com/archives/2005/09/striptease/
+	http://guyfisher.com/2005/09/striptease/
