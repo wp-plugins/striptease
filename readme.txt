@@ -4,7 +4,7 @@ Contributors: guyfisher
 Tags: anchor, excerpt, filter, link, more, navigation, permalink, quicktag, teaser
 Requires at least: 1.5
 Tested up to: 2.9
-Stable tag: trunk
+Stable tag: 1.1
 
 Strips the "#more" fragments from teaser links so they link to full posts.
 
@@ -22,7 +22,7 @@ That's where the StripTease plugin comes in. It does the hacking for you!
 
 == Installation ==
 
-1. Place the `striptease.php` plugin file in your Wordpress plugins directory.
+1. Place the `striptease.php` plugin file in your WordPress plugins directory.
 2. Activate the StripTease plugin on your WordPress plugins administration panel.
 3. Once it's activated, StripTease will immediately begin stripping your teaser links.
 
