@@ -30,17 +30,10 @@ please visit http://creativecommons.org/licenses/GPL/2.0/
 
 */
 
-function hb_striptease($the_content) {
-
-	global $id, $permalink;
-
-	$teaser = preg_quote("$permalink#more-$id", '/');
-	$the_content = preg_replace("/$teaser/", $permalink, $the_content);
-
-	return $the_content;
-
+function striptease_more_link( $more_link, $more_link_text ) {
+	global $id;
+	return str_replace( "#more-$id", '', $more_link );
 }
-
-add_filter('the_content', 'hb_striptease');
+add_filter( 'the_content_more_link', 'striptease_more_link', 10, 2 );
 
 ?>
