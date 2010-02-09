@@ -25,10 +25,10 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 */
 
-function striptease_more_link( $more_link, $more_link_text ) {
+function striptease_more_link( $more_link ) {
 	global $id;
 	return str_replace( "#more-$id", '', $more_link );
 }
-add_filter( 'the_content_more_link', 'striptease_more_link', 10, 2 );
+add_filter( 'the_content_more_link', 'striptease_more_link' );
 
 ?>
