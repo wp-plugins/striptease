@@ -1,10 +1,21 @@
 <?php
 
+/**
+ * A WordPress plugin that strips the "#more" fragments from the end of "Read More" teaser links.
+ *
+ * @package StripTease
+ * @link http://guyfisher.com/builder/striptease/
+ * @author Guy Fisher
+ * @copyright Copyright © 2010 Guy M. Fisher
+ * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * @version 2.0
+ */
+
 /*
 
 Plugin Name: StripTease
 Plugin URI: http://guyfisher.com/builder/striptease/
-Description: Strips the "#more" fragment from the end of "Read More" teaser links.
+Description: Strips the "#more" fragments from the end of "Read More" teaser links.
 Author: Guy Fisher
 Author URI: http://guyfisher.com/
 Version: 2.0
@@ -25,6 +36,18 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 */
 
+/**
+ * Strips the #more-$id fragments from the end of "Read More" teaser links.
+ *
+ * Filters the $more_link string passed from the_content_more_link filter
+ * in the get_the_content() function.
+ *
+ * @since 2.0
+ *
+ * @global int Post ID
+ * @param string $more_link HTML markup for teaser link
+ * @return string HTML markup with #more-$id fragment stripped off
+ */
 function striptease_more_link( $more_link ) {
 	global $id;
 	return str_replace( "#more-$id", '', $more_link );
