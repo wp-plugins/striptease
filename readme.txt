@@ -3,7 +3,7 @@
 Contributors: guyfisher
 Tags: anchor, excerpt, filter, more-link, navigation, permalink, quicktag, read-more, teaser
 Requires at least: 2.8
-Tested up to: 2.9
+Tested up to: 3.0
 Stable tag: 2.0
 
 Strips the "#more" fragments from the end of "Read More" teaser links so they link to full posts.
@@ -24,20 +24,6 @@ That's where the StripTease plugin comes in. It automatically strips the "#more"
 2. Activate the StripTease plugin on your WordPress plugins administration panel.
 3. Once it's activated, StripTease will immediately begin stripping your teaser links.
 
-== Frequently Asked Questions ==
-
-= Why would I use this plugin? =
-
-If you create teasers for your posts with the `<!--more-->` quicktag, and you want those teasers to link to your full posts instead of jumping to the unread text, you should use the StripTease plugin.
-
-= How do I configure this plugin? =
-
-The StripTease plugin doesn't require any configuration. Once it's activated, it will immediately begin stripping "#more" fragments from your teaser links.
-
-= Do I have to use "Pretty Permalinks" with this plugin? =
-
-No, you don't. StripTease will work with WordPress's default querystring permalinks, as well as its rewrite-based pretty permalinks.
-
 == Changelog ==
 
 = 2.0 =
@@ -53,6 +39,20 @@ No, you don't. StripTease will work with WordPress's default querystring permali
 
 = 2.0 =
 This version filters teaser links directly instead of filtering the entire post. Requires WordPress 2.8 or higher.
+
+== Frequently Asked Questions ==
+
+= Why would I use this plugin? =
+
+If you create teasers for your posts with the `<!--more-->` quicktag, and you want those teasers to link to your full posts instead of jumping to the unread text, you should use the StripTease plugin.
+
+= How do I configure this plugin? =
+
+The StripTease plugin doesn't require any configuration. Once it's activated, it will immediately begin stripping the "#more" fragments from the end of your teaser links.
+
+= Do I have to use "Pretty Permalinks" with this plugin? =
+
+No, you don't. StripTease will work with WordPress's default querystring permalinks, as well as its rewrite-based pretty permalinks.
 
 == Example ==
 
