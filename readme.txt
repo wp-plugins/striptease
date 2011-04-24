@@ -37,7 +37,7 @@ The StripTease plugin doesn't require any configuration. Once it's activated, it
 
 = Do I have to use "pretty permalinks" with this plugin? =
 
-No, you don’t. The StripTease plugin will work with WordPress's default querystring permalinks as well as its rewrite-based pretty permalinks.
+No, you don't. The StripTease plugin will work with WordPress's default querystring permalinks as well as its rewrite-based pretty permalinks.
 
 == Changelog ==
 
