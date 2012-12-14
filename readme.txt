@@ -3,7 +3,7 @@
 Contributors: guyfisher
 Tags: anchor, excerpt, filter, more-link, navigation, permalink, quicktag, read-more, teaser
 Requires at least: 2.8
-Tested up to: 3.4
+Tested up to: 3.5
 Stable tag: trunk
 
 Strips the "#more" fragments from the end of "Read More" teaser links so they link to full posts.
